@@ -1,0 +1,18 @@
+.box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    font-size: 40px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
+.box.revealed {
+    background-color: #f0f0f0;
+    cursor: default;
+}
